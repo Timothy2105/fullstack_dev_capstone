@@ -72,7 +72,7 @@ img{
   min-width: 350px;
   width: 80%;
   margin-top:3%;
-  background-color: black;
+  background-color: white;
 }
 
 .navitems{
@@ -123,4 +123,18 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.about_img {
+    width: 500px;
+    height: auto;
+}
+
+.col-md-4 {
+    flex: 0 0 30%; /* Adjust the width of image column */
+}
+
+.col-md-8 {
+    flex: 1; /* Allow content to take up remaining space */
+    padding: 0 20px; /* Adjust as needed */
 }
